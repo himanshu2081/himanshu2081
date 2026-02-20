@@ -1,0 +1,181 @@
+/* RESET */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* BODY */
+body{
+    background:#111;
+    color:white;
+}
+
+/* GLOBAL TEXT */
+p{
+    text-align:center;
+}
+
+/* LOGO */
+.logo img{
+    width:45px;
+    height:45px;
+    border-radius:50%;
+    object-fit:cover;
+    border:2px solid #00adb5;
+}
+
+/* ABOUT BOX */
+.box{
+    max-width:700px;
+    margin:20px auto;
+    background:#222;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 0 15px #00adb5;
+    line-height:1.6;
+}
+
+/* NAVBAR */
+nav{
+    display:flex;
+    justify-content:space-between;
+    padding:15px 40px;
+    background:#000;
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+}
+
+nav ul li{
+    margin-left:20px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+    transition:0.2s;
+}
+
+nav ul li a:hover{
+    color:#00adb5;
+}
+
+/* HOME */
+.home{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    padding:60px;
+}
+
+.home img{
+    width:250px;
+    border-radius:50%;
+    border:4px solid #00adb5;
+}
+
+/* SECTIONS */
+section{
+    padding:60px;
+    text-align:center;
+}
+
+h2{
+    margin-bottom:20px;
+    color:#00adb5;
+}
+
+/* CERTIFICATES */
+.cert-container{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.cert-card{
+    text-align:center;
+}
+
+.cert-card img{
+    width:280px;
+    border-radius:12px;
+    box-shadow:0 0 15px #00adb5;
+    transition:0.3s;
+}
+
+.cert-card img:hover{
+    transform:scale(1.05);
+}
+
+/* CARDS (Skills + Projects) */
+.cards{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.card{
+    background:#222;
+    padding:25px;
+    border-radius:12px;
+    width:220px;
+    text-align:center;
+    box-shadow:0 0 12px #00adb5;
+    transition:0.3s;
+    cursor:pointer;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+/* INFO TEXT (COLOR IMPROVED ⭐) */
+.card .info{
+    opacity:0;
+    font-size:14px;
+    margin-top:10px;
+    line-height:1.5;
+    color:#c9f9ff;      /* BEST MATCH COLOR */
+    transition:0.3s;
+}
+
+.card:hover .info{
+    opacity:1;
+}
+
+/* SOCIAL */
+.social a{
+    color:white;
+    font-size:30px;
+    margin:10px;
+    transition:0.2s;
+}
+
+.social a:hover{
+    color:#00adb5;
+}
+
+/* FOOTER */
+.footer{
+    background:#000;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+    border-top:2px solid #00adb5;
+}
+
+.footer p{
+    margin:5px;
+    color:#aaa;
+    font-size:14px;
+}
